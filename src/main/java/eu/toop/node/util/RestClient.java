@@ -11,6 +11,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * Helper class for outgoing http connections build around Spring {@link RestTemplate}. 
+ * Presents easy to use GET and POST methods.
+ * 
+ * @author Sander IJpma
+ *
+ */
 @Component
 public class RestClient {
 

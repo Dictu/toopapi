@@ -2,6 +2,11 @@ package eu.toop.node.model;
 
 import lombok.Data;
 
+/**
+ * Represents a standard TOOP Chamber Of Commercer dataset 
+ * @author Sander IJpma
+ *
+ */
 @Data
 public class ChamberOfCommerceDataSet implements DataSet {
 

@@ -2,6 +2,11 @@ package eu.toop.node.model;
 
 import lombok.Data;
 
+/**
+ * Represents a standard TOOP Address dataset 
+ * @author Sander IJpma
+ *
+ */
 @Data
 public class Address implements DataSet {
 	/**
