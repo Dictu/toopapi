@@ -3,7 +3,7 @@ package eu.toop.node.model;
 import lombok.Data;
 
 /**
- * Represents a standard TOOP Chamber Of Commercer dataset 
+ * Represents a standard TOOP Chamber Of Commerce dataset 
  * @author Sander IJpma
  *
  */
