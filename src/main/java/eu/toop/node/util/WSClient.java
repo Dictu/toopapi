@@ -5,6 +5,12 @@ import org.springframework.ws.client.core.WebServiceTemplate;
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.transport.http.HttpComponentsMessageSender;
 
+/**
+ * Helper class for webservice calls of type T.
+ * @author Sander
+ *
+ * @param <T>
+ */
 public abstract class WSClient<T> extends WebServiceGatewaySupport {
 
 	private HttpClient httpClient;

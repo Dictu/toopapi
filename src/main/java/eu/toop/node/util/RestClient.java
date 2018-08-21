@@ -44,8 +44,8 @@ public class RestClient {
 		return responseEntity.getBody();
 	}
 
-	private RestTemplate getRestTemplate(String url) {		
-		if (nonProxyHosts.stream().filter(p->url.contains(p)).count()>0) {
+	private RestTemplate getRestTemplate(String url) {
+		if (nonProxyHosts.stream().anyMatch(p->url.contains(p))) {
 			return localRestTemplate;
 		}
 		else {
